@@ -1,0 +1,15 @@
+{% load static %}
+<li>
+    <article class="post">
+      <a href="{% url "post-detail-page" "the-mountains" %}">
+        <img src="{% static "blog/images/cycling.png" %}" alt="Road Cycling!" />
+        <div class="post__content">
+          <h3>My Weekend Cycling Trip</h3>
+          <p>
+            There's nothing like the feeling you get when cycling in the open
+            road on a early morning weekend...
+          </p>
+        </div>
+      </a>
+    </article>
+</li>
